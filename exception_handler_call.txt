@@ -1,6 +1,0 @@
-  
-     exception_handler.log_message(v_fn_name => 'JSON_AMB_ORG.fn_get_json_ao_open_items'
-     ,v_parameter_names => 'inputdate'||','||'enddate'||','||'res_selected'
-     ,v_parameter_values => inputdate||','||enddate||','||res_selected
-     ,v_msg_type => 'EXCEPTION'
-     ,v_msg => SUBSTR(SQLERRM,1,500));   
